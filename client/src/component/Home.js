@@ -8,7 +8,7 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                <AppNavbar/>
+                <AppNavbar />
                 <Container fluid>
                     <Button color="primary" tag={Link} to='/groups'>
                         Manage Jug tours
