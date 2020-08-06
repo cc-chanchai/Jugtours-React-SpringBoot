@@ -33,7 +33,7 @@ class GroupEdit extends Component {
         const target = event.target
         const value = target.value
         const name = target.name
-        var item = { ...this.state.item }
+        let item = { ...this.state.item }
         item[name] = value
         this.setState({ item })
     }

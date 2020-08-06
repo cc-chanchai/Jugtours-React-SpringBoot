@@ -26,7 +26,7 @@ export default class GroupList extends Component {
                 'Content-type': 'application/json'
             }
         }).then(() => {
-            var updateGroup = [...this.state.groups].filter(i => i.id !== id)
+            let updateGroup = [...this.state.groups].filter(i => i.id !== id)
             this.setState({ groups: updateGroup })
         })
     }
